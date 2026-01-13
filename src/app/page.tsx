@@ -11,9 +11,14 @@ export default function Home() {
     "GraphQL",
     "PostgreSQL",
     "Docker",
-    "AWS",
     "CI/CD",
-    "Microservices"
+    "Microservices",
+    "PHP",
+    "Laravel",
+    "Vue.js",
+    "Angular",
+    "GitHub Actions",
+    "System Designing"
   ];
 
   return (
