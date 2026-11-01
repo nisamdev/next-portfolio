@@ -12,8 +12,7 @@ export const Footer = () => {
         </p>
         <ContactActions />
         <p className="muted note">
-          Hiring for a senior or lead role, or building a product? I also build my own
-          products under YEGstack.
+          Hiring for a senior or lead role? I am looking for new opportunities.
         </p>
         <div className="foot">
           <span>&copy; {new Date().getFullYear()} Nisamudheen Kalampulan, Edmonton, Alberta</span>
