@@ -10,6 +10,7 @@ import {
   experience,
   identityPoints,
   services,
+  sideProjects,
   stackGroups,
 } from "./lib/content";
 
@@ -113,6 +114,34 @@ export default function Home() {
           <div>
             <h2>Systems I built, ran or migrated.</h2>
             <WorkList />
+          </div>
+        </div>
+      </section>
+
+      <section id="side-projects" className="bleed">
+        <div className="w row">
+          <div className="label">Side projects</div>
+          <div>
+            <h2>Things I build on my own, in different stacks.</h2>
+            <div className="topics">
+              {sideProjects.map((project) => (
+                <div className="topic" key={project.title}>
+                  <h3>
+                    {project.repo ? (
+                      <a href={project.repo} target="_blank" rel="noopener">
+                        {project.title}
+                      </a>
+                    ) : (
+                      project.title
+                    )}
+                  </h3>
+                  <div>
+                    <p>{project.description}</p>
+                    <small>{project.tools}</small>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

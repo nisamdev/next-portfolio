@@ -13,7 +13,7 @@ export const Footer = () => {
         <ContactActions />
         <p className="muted note">
           Hiring for a senior or lead role, or building a product? I also build my own
-          products under YEGstack, including Roost for Alberta daycares.
+          products under YEGstack.
         </p>
         <div className="foot">
           <span>&copy; {new Date().getFullYear()} Nisamudheen Kalampulan, Edmonton, Alberta</span>

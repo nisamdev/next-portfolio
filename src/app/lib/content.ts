@@ -1,6 +1,6 @@
 export const EMAIL = "nkalampulan@outlook.com";
 export const CALENDAR_URL = "https://cal.com/nkalampulan";
-export const GITHUB_URL = "https://github.com/mail2nisam";
+export const GITHUB_URL = "https://github.com/nisamdev";
 export const LINKEDIN_URL = "https://linkedin.com/in/nisamudheen-kalampulan";
 
 export const services = [
@@ -214,28 +214,12 @@ export const projects = [
     ],
   },
   {
-    title: "Roost",
-    when: "YEGstack, in development",
-    description: "Administration software for licensed daycares in Alberta. I am the sole developer.",
-    areas: ["front", "ai", "api"],
-    tags: "Laravel, Reverb, Next.js, Expo",
-    highlights: [
-      "Laravel API with real-time updates, queues and migrations, and a Next.js front end.",
-      "Includes a parent mobile app, a door kiosk and transport tracking.",
-      "AI-assisted onboarding of children from other systems, spreadsheets and scans.",
-      "Designed around Alberta and Canadian privacy law, starting with PIPA.",
-    ],
-  },
-  {
-    title: "Vector LMS and CloudVault",
-    when: "Personal projects",
-    description: "A multi-tenant training platform, and a personal cloud storage application.",
-    areas: ["front", "rails"],
-    tags: "Vue 3, Pinia, TypeScript, Laravel, Rails, PostgreSQL",
-    highlights: [
-      "Vector: Vue 3 with the Composition API and Pinia on a Laravel and PostgreSQL back end.",
-      "CloudVault: Rails back end with a Vue 3 front end and Pinia.",
-    ],
+    title: "Vector LMS",
+    when: "Personal project",
+    description: "A multi-tenant training platform.",
+    areas: ["front"],
+    tags: "Vue 3, Pinia, TypeScript, Laravel, PostgreSQL",
+    highlights: ["Vue 3 with the Composition API and Pinia on a Laravel and PostgreSQL back end."],
   },
   {
     title: "Document extraction product",
@@ -244,6 +228,35 @@ export const projects = [
     areas: ["ai"],
     tags: "Python, OCR, LLMs",
     highlights: ["Extracts data from PDF and PowerPoint files using OCR and LLMs."],
+  },
+];
+
+export const sideProjects = [
+  {
+    title: "LocalSign",
+    description:
+      "A self-hosted app for filling and signing PDFs. Teams place fields on a document, sign it, and send signing requests to outside recipients by email link.",
+    tools: "Node.js, Express, MongoDB, PDF.js, pdf-lib, JWT, Docker Compose",
+  },
+  {
+    title: "CloudVault",
+    repo: "https://github.com/nisamdev/cloudvault",
+    description: "Secure cloud storage for a family's files and photos.",
+    tools: "Ruby on Rails, Vue 3, Pinia, PostgreSQL, Redis, MinIO, Docker Compose",
+  },
+  {
+    title: "pptx-to-html",
+    repo: "https://github.com/nisamdev/pptx-to-html",
+    description:
+      "Converts PowerPoint decks into self-contained HTML, one page per slide. It rebuilds each slide from the geometry PowerPoint stores, so text stays real text.",
+    tools: "Python, FastAPI, Docker",
+  },
+  {
+    title: "Swing trade bot",
+    repo: "https://github.com/nisamdev/swing-trade-bot",
+    description:
+      "A swing-trading bot with a plain-English interface. It tests a strategy on past prices, runs it on an Alpaca paper trading account, and journals every decision.",
+    tools: "Python, FastAPI, React, Vite, Alpaca API, Docker Compose",
   },
 ];
 
