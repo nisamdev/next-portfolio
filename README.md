@@ -4,22 +4,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## About
 
-This project is a portfolio website built using Next.js. It displays various projects with details such as the tech stack used and key features. The website is designed to be responsive and accessible. It also includes a dark mode switcher for better user experience.
+This project is a single-page portfolio website built using Next.js. Page copy lives in `src/app/lib/content.ts` and the styles in `src/app/globals.css`. The website is designed to be responsive and accessible. It also includes a dark mode switcher for better user experience.
 
 ## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com)
-- **Fonts**: [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with [Geist](https://vercel.com/font)
-- **Icons**: [Lucide React](https://lucide.dev/)
+- **Styling**: Plain CSS with light and dark design tokens
+- **Fonts**: [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with Bricolage Grotesque, Hanken Grotesk and JetBrains Mono
 - **Deployment**: [Vercel](https://vercel.com)
 
 ## Libraries Used
 
 - **React**: For building the user interface
-- **Tailwind CSS**: For styling the components
 - **TypeScript**: For type safety and better developer experience
-- **Lucide React**: For including icons in the project
 
 ## Getting Started
 

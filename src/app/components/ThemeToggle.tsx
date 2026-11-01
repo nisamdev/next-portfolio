@@ -2,17 +2,17 @@
 
 import { useTheme } from "../lib/theme";
 
-
-
 export const ThemeToggle = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { toggleTheme } = useTheme();
 
   return (
     <button
+      className="tbtn"
+      type="button"
+      aria-label="Toggle light and dark theme"
       onClick={toggleTheme}
-      className="p-2 rounded-full bg-gray-200 dark:bg-gray-800"
     >
-      {theme === "light" ? "🌙" : "☀️"}
+      light / dark
     </button>
   );
 };
